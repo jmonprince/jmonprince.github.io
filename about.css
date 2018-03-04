@@ -1,0 +1,164 @@
+ul {
+    
+    list-style: none;
+    font-family: arial;
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    display: block;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;  
+    display: inline;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 0px;
+    margin-top: 185px;
+    position: relative;
+    
+}
+
+li {
+    margin-bottom: 100px;
+    
+    
+    
+    
+    
+    
+    
+}
+
+a:link {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+a:visited {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+    
+    
+}
+
+
+
+
+a:active {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+#pics img:first-child {
+    
+   display: block;
+    overflow: hidden; 
+    margin-right: -auto;
+    height: 500px;
+    width: auto;
+    margin-top: 100px;
+    margin-left: -335px;
+    position: relative;
+    float: right;
+   
+    
+   
+    
+}
+
+
+#pics img:last-child {
+
+    
+      display: block;
+    overflow: hidden; 
+    margin-right: auto;
+    height: 470;
+    width: auto;
+    margin-top: 165px;
+    margin-left: 35px;
+    position: relative;
+    float: left;
+   
+    
+    
+}
+
+P {
+     list-style: none;
+    font-family: arial;
+    font-size: 8.5px;
+    height: auto;
+    width: auto;
+    display: block;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;  
+    display: block;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 10px;
+    margin-top: 350px;
+    position: relative;
+    white-space: pre-wrap;
+    
+    
+    
+     
+}
+  
+
+ol {
+    
+    list-style: none;
+    font-family: arial;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: 200px;
+    display: inline;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    float: left;
+     list-style: none;
+    position: relative;
+    text-align: center;
+   
+    
+    
+}
+   
+.social {
+     display: inline;
+    margin-right: 75px;
+    
+}
+    
+    
+}
+    
+    
+}
