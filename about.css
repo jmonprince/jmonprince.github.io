@@ -71,7 +71,7 @@ a:active {
     
    display: block;
     overflow: hidden; 
-    margin-right: -auto;
+    margin-right: auto;
     height: 500px;
     width: auto;
     margin-top: 100px;
@@ -91,10 +91,10 @@ a:active {
       display: block;
     overflow: hidden; 
     margin-right: auto;
-    height: 470;
+    height: 430;
     width: auto;
     margin-top: 165px;
-    margin-left: 35px;
+    margin-left: 350px;
     position: relative;
     float: left;
    
@@ -105,7 +105,7 @@ a:active {
 P {
      list-style: none;
     font-family: arial;
-    font-size: 8.5px;
+    font-size: 10px;
     height: auto;
     width: auto;
     display: block;
@@ -117,8 +117,8 @@ P {
     color: black;
     text-transform: uppercase;
     float: right;
-    margin-right: 10px;
-    margin-top: 350px;
+    margin-right: 250px;
+    margin-top: 0px;
     position: relative;
     white-space: pre-wrap;
     
@@ -136,8 +136,8 @@ ol {
     height: auto;
     width: auto;
     overflow: hidden;
-    margin-right: auto;
-    margin-left: 200px;
+    margin-right: -100px;
+    margin-left: 550px;
     display: inline;
     font-weight: 600;
     color: black;
