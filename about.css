@@ -24,12 +24,10 @@ li {
     margin-bottom: 100px;
     
     
-    
-    
-    
-    
-    
 }
+
+
+
 
 a:link {
     
@@ -158,7 +156,13 @@ ol {
 }
     
     
+
+@media screen and (max-width: 1060px) {
+    #primary { width:57%; }
+    #secondary { width:30%; margin-left:3%;}  
 }
-    
-    
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
