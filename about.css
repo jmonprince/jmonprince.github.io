@@ -111,7 +111,8 @@ p {
     text-transform: uppercase;
     margin-left: 00;
     margin-right: 00;
-    margin-top: 20px;
+    margin-top: -75px;
+    padding: 100px
  
 
     
@@ -148,7 +149,22 @@ h2 {
 
 
 ol {
-    
+    list-style: none;
+    font-family: arial;
+    font-size: 15px;
+    display: block;
+    overflow:auto;
+    margin-right: auto;
+    margin-left: auto;  
+    display: block;
+    font-weight: 600;
+    color: black;
+    text-transform: lowercase;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+      margin-right: 30px;
+    margin-top: -60px;
     
     
 }
