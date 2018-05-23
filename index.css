@@ -6,7 +6,7 @@ img {
 
     display: block;
     margin: auto;
-    max-width: 50%;  
+    max-width: 75%;  
     height: auto;
     width: 100px;
     align-content: center;
@@ -17,6 +17,24 @@ img {
     
      
    
+    
+}
+
+
+h1 {
+      font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;;
+    min-width: 100px;
+    min-height: 100px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    font-size: 20px;
+
+    
+    
     
 }
 
@@ -35,7 +53,7 @@ img {
 }
 
 a:link {
-    color: green; 
+    color: black; 
     background-color: transparent; 
     text-decoration: none;
 }
@@ -47,7 +65,7 @@ a:visited {
 }
 
 a:hover {
-    color: red;
+    color: black;
     background-color: transparent;
     text-decoration: underline;
 }
