@@ -4,7 +4,7 @@ h1 {
     margin-top: 50px;;
     min-width: 100px;
     min-height: 100px;
-    color: whitesmoke;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
@@ -51,7 +51,7 @@ ul {
     margin-left: auto;  
     display: block;
     font-weight: 600;
-    color: whitesmoke;
+    color: black;
     text-transform: lowercase;
     margin-top: -80px;
     position: relative;
@@ -82,7 +82,7 @@ li {
 a:link {
     
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     
 }
 
@@ -91,7 +91,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     
 }
 
@@ -101,7 +101,7 @@ a:visited {
 a:hover {
     text-decoration: underline overline;
      text-decoration-color: red;
-    color: whitesmoke;
+    color: black;
     
     
     
@@ -118,7 +118,7 @@ p {
     overflow:hidden; 
     display: block;
     font-weight: 600;
-    color: whitesmoke;
+    color: black;
     text-transform: uppercase;
     margin-left: 00;
     margin-right: 00;
