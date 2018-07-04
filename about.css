@@ -53,7 +53,7 @@ ul {
     font-weight: 600;
     color: black;
     text-transform: lowercase;
-    margin-top: -80px;
+    margin-top: -85px;
     position: relative;
     text-align: center;
     white-space: nowrap;
@@ -188,11 +188,7 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-
-    
-    
-    
+    display: block;   
 }
 
 
