@@ -1,0 +1,98 @@
+
+
+
+
+img {
+
+    display: block;
+    margin: auto;;  
+    height: auto;
+    width: 375px;
+    align-content: center;
+    vertical-align: middle;
+     margin-top: -20px;
+
+
+    
+     
+   
+    
+}
+
+
+h1 {
+    text-align: center;
+    list-style: none;
+    font-family: jfont2;
+    font-size: 100px;
+    display:block;
+    overflow:auto; 
+    display: block;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 00;
+    margin-right: 00;
+    padding: 120px;
+    overflow: hidden;
+
+    
+    
+    
+}
+
+
+
+h2 {
+    text-align: center;
+    list-style: none;
+    font-family: jfont2;
+    font-size: 30px;
+    display:block; 
+    display: block;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    overflow: hidden;
+
+    
+    
+    
+}
+
+@font-face
+{
+font-family: jfont2;
+src: url('jfont2.otf'),
+url('jfont2.eot');
+}
+
+
+
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}

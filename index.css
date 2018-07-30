@@ -5,13 +5,12 @@
 img {
 
     display: block;
-    margin: auto;
-    max-width: 75%;  
+    margin: auto;;  
     height: auto;
-    width: 100px;
+    width: 375px;
     align-content: center;
     vertical-align: middle;
-     margin-top: 250px;
+     margin-top: -20px;
 
 
     
@@ -25,7 +24,7 @@ h1 {
     text-align: center;
     list-style: none;
     font-family: jfont2;
-    font-size: 45px;
+    font-size: 10px;
     display:block;
     overflow:auto; 
     display: block;
@@ -34,8 +33,29 @@ h1 {
     text-transform: uppercase;
     margin-left: 00;
     margin-right: 00;
-    margin-top: 200px;
-    padding: 150px;
+    padding: 10px;
+    overflow: hidden;
+
+    
+    
+    
+}
+
+
+
+h2 {
+    text-align: center;
+    list-style: none;
+    font-family: jfont2;
+    font-size: 30px;
+    display:block; 
+    display: block;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
     overflow: hidden;
 
     
@@ -51,14 +71,6 @@ url('jfont2.eot');
 }
 
 
-body {
-    
-    background-image: url(back.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
- 
-}
 
 
 a:link {

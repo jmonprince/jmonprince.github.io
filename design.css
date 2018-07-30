@@ -34,7 +34,7 @@ body {
     
     background-image: url(back.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
  
 }
@@ -110,14 +110,14 @@ p {
     text-align: center;
     list-style: none;
     font-family: jfont2;
-    font-size: 15px;
+    font-size: 10px;
     display: inline;
     overflow:auto; 
     display: block;
     font-weight: 600;
-    color: whitesmoke;
+    color: black;
     text-transform: uppercase;
-    margin-top: 300px;
+    margin-top: 10px;
   
 
     
