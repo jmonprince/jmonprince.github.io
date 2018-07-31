@@ -1,0 +1,156 @@
+h1 {
+    font-family: jfont2;
+    text-align: center;
+    margin-top: 50px;;
+    min-width: 100px;
+    min-height: 100px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    font-size: 20px;
+    
+    
+    
+}
+
+
+h2 {
+    font-family: jfont2;
+    text-align: center;
+    margin-top: 0px;;
+    min-width: 100px;
+    min-height: 10px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    font-size: 15px;
+    
+    
+    
+}
+
+
+.center {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100px;
+    min-height: auto;
+    position: relative;
+    top: -90px;
+  
+
+   
+    
+}
+
+body {
+    
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+ 
+}
+
+ul {
+    
+    list-style: none;
+    font-family: jfont2;
+    font-size: 10px;
+    display: block;
+    overflow:auto;
+    margin-right: auto;
+    margin-left: auto;  
+    display: block;
+    font-weight: 600;
+    color: whitesmoke;
+    text-transform: lowercase;
+    margin-top: -85px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+      margin-right: 30px;
+    
+ 
+  
+    
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    margin-top:100px;
+    white-space: nowrap;
+    text-align: center;
+    
+    
+    
+    
+}
+
+
+
+
+a:link {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+a:visited {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+a:hover {
+    text-decoration: underline;
+     text-decoration-color: red;
+    color: red;
+    
+}
+
+
+
+p {
+    text-align: center;
+    list-style: none;
+    font-family: jfont2;
+    font-size: 10px;
+    display: inline;
+    overflow:auto; 
+    display: block;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 10px;
+  
+
+    
+}
+
+img {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+    
+}
+
+@font-face
+{
+font-family: jfont2;
+src: url('jfont2.otf'),
+url('jfont2.eot');
+}
