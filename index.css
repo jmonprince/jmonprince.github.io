@@ -24,18 +24,17 @@ h1 {
     text-align: center;
     list-style: none;
     font-family: jfont2;
-    font-size: 60px;
+    font-size: 70px;
     display:block;
     overflow:auto; 
     display: block;
     font-weight: 600;
     color: white;
     text-transform: uppercase;
-    margin-left: 00;
-    margin-right: 00;
-    padding: 300px;
+    padding: 200px;
     overflow: hidden;
     white-space:nowrap;
+    margin-top: 175px;
 
     
     
@@ -96,7 +95,8 @@ a:visited {
 a:hover {
     color: black;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 a:active {
