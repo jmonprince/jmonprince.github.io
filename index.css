@@ -24,17 +24,19 @@ h1 {
     text-align: center;
     list-style: none;
     font-family: jfont2;
-    font-size: 70px;
+    width: auto;;
+    height: auto;
+    font-size: 40px;
     display:block;
     overflow:auto; 
     display: block;
     font-weight: 600;
-    color: white;
+    color: papayawhip;
     text-transform: uppercase;
-    padding: 200px;
     overflow: hidden;
-    white-space:nowrap;
-    margin-top: 175px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
 
     
     
@@ -47,11 +49,11 @@ h2 {
     text-align: center;
     list-style: none;
     font-family: jfont2;
-    font-size: 30px;
+    font-size: 20px;
     display:block; 
     display: block;
     font-weight: 600;
-    color: black;
+    color: white;
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
