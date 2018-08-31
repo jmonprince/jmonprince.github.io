@@ -32,6 +32,25 @@ h2 {
 }
 
 
+a {
+    font-family: jfont2;
+    text-align: center;
+    margin-top: 0px;;
+    min-width: 100px;
+    min-height: 10px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    font-size: 15px;
+    
+    
+    
+    
+    
+}
+
+
 .center {
     
     display: block;
