@@ -7,10 +7,11 @@ img {
     display: block;
     margin: auto;;  
     height: auto;
-    width: 705px;
+    width: 500px;
     align-content: center;
     vertical-align: middle;
-     margin-top: -20px;
+     margin-top: 75px;
+    
 
 
     
@@ -53,7 +54,7 @@ h2 {
     display:block; 
     display: block;
     font-weight: 600;
-    color: black;
+    color: white;
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
@@ -75,11 +76,11 @@ url('jfont2.eot');
 
 body {
     
-    background-image: url(backing1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
- 
+    background-repeat:repeat;
+    background-attachment:scroll;
+    background-size: contain;
+    background-color: black;
+    
 }
 
 a:link {
