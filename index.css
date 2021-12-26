@@ -60,6 +60,7 @@ h2 {
     margin-right: auto;
     margin-top: 25px;
     overflow: hidden;
+    text-decoration: underline;
 
     
     
@@ -106,4 +107,75 @@ a:active {
     color: black;
     background-color: transparent;
     text-decoration: none;
+}
+
+ol { 
+
+color: white;
+font-family: monospace;
+font-weight: 500;
+margin-bottom: auto;
+list-style-type: decimal-leading-zero;
+font-size: 17px;
+
+
+    
+  
+    
+   
+}
+
+li {
+    padding: 13px;
+    margin-left: 75px;
+    font-style: italic;
+   
+    
+}
+
+p {
+     color:gold;
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 17px;
+    
+    
+}
+
+
+h3 {
+    
+     color: white; 
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 17px;
+    
+    
+    
+}
+
+
+h4 {
+    
+     color: white; 
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    
+    
+    
+}
+
+dd {
+    
+   
+    
+    
+    
 }
