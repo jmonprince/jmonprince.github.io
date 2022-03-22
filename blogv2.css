@@ -1,0 +1,466 @@
+body {
+    margin:0;
+    background-color: black;
+    height: 100%;
+    
+}
+
+
+
+
+
+a {
+    color: black;
+    
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    padding-top: 20px;
+    opacity: .978;
+    
+    
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: gold;
+    font-family: jfont2;
+    
+}
+
+
+.header ul a {
+    display: block;
+    padding: 20px;
+    border-right: 1px solid #aaa;
+    text-decoration: none;
+    
+}
+
+.header ul a:hover {
+    background-color: gold;
+   font-family: jfont2;
+    text-decoration: underline;
+   
+    
+    
+    
+    
+}
+
+
+nav img {
+    float: left;
+    display: block;
+    width: 50%;
+    padding: 15px 30px;
+    max-width: 250px;
+    
+}
+
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    font-family: jfont2;
+}
+
+.header .menu-icon {
+    padding:28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+     
+}
+
+.header .menu-icon .nav-icon {
+    background: black;
+    display: block;
+    height:2px;
+    width: 18px;
+    position: relative;
+    transition:background .2s ease-out;
+}
+
+
+.header .menu-icon .nav-icon:before{
+    background: black;
+    content: "";
+    display: block;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+    
+    
+}
+
+.header .menu-icon .nav-icon:after{
+    background: black;
+    content: "";
+    display: block;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+    
+    
+}
+
+
+.header .menu-btn {
+    display: none;
+    
+}
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background:transparent;
+   
+}
+
+
+
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+   transform: rotate(-45deg);
+    top: 0;
+}
+
+
+
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+   
+}
+
+@media (min-width: 900px) {
+    .header li{
+        float: left;
+    }
+    
+    .header li a {
+        padding: 20px 30px;
+    }
+    
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+        background-color: white;
+    }
+    
+    .header .menu-icon {
+        display: none;
+        
+    }
+}
+
+@font-face
+{
+font-family: jfont2;
+src: url('jfont2.otf'),
+url('jfont2.eot');
+}
+
+
+@font-face
+{
+font-family: KETA;
+src: url('KETA.ttf'),
+url('KETA.eot');
+}
+
+
+
+
+
+
+
+ol { 
+
+color: white;
+font-family: monospace;
+font-weight: 500;
+margin-bottom: auto;
+list-style-type: decimal-leading-zero;
+font-size: 17px;
+padding-left: 40px;
+padding-right: 40px;
+text-align: center;
+margin top: 30px;
+
+   
+  
+   
+}
+
+li {
+    margin: auto;
+    font-style: italic;
+    margin top: 20px;
+    position: relative;
+    text-align: center;
+    margin-left: 3px;
+   
+    
+    
+   
+    
+}
+
+
+
+.header li {
+    padding: fixed;
+    
+    
+}
+
+p {
+     color:gold;
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 17px;
+    
+    
+}
+
+
+h1 {
+    text-align: center;
+    list-style: none;
+    font-family: jfont2;
+    width: auto;;
+    height: auto;
+    font-size: 20px;
+    display:block;
+    overflow:auto; 
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    
+    
+}
+
+
+h2 {
+    text-align: center;
+    list-style: none;
+    font-family: KETA;
+    font-size: 60px;
+    display:block; 
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 140px;
+    text-decoration-line:underline;
+    text-decoration-color: beige;
+        padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: -70px;
+
+    
+
+    
+    
+    
+}
+
+
+
+
+
+h3 {
+    
+     color: white; 
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+
+    
+    
+    
+}
+
+
+h4 {
+    
+     color: black; 
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+
+dd {
+    color: white;
+    position: absolute;
+    width: 60%;
+    padding-bottom: 6%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 16px;
+    position: relative;
+   
+   
+} 
+    
+    
+
+
+.container {
+    
+    position: relative;
+    overflow: ;
+    margin: auto;
+    width: 75%;
+    padding-bottom:60%;
+    padding-top: 0px;
+    height: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+    
+}
+
+@media only screen and (max-width: 740px) {
+.video-container {
+    width:auto;
+    height:auto;
+    
+    
+    
+    
+    }
+
+.video-container iframe, .video-container object, .video-container embed 
+{     width:1920px;
+    height:1080px;
+    
+}
+ 
+    
+    
+    
+    
+}
+
+
+.responsive-iframe {
+    
+    position: absolute;
+    top: 0;
+    left 0;
+    bottom: 0;
+    right: 0; 
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+    
+    
+}
+
+.video-box{
+    width:400px;
+    position:relative;
+    
+}
+
+.video-thumbnail{
+    z-index:300;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    image-resolution: snap;
+    
+
+}
+
+.video-frame{
+    z-index:100;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    
+}
+
+.thumbnail-link .video-thumbnail{
+    display:block;
+    image-resolution:
+}
+
+.thumbnail-link:hover .video-thumbnail{
+    display:none;
+}
+
+
+
+
+
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:55%;
+    
+    
+    
+    
+}
+
+
+img {
+    
+    max-width: 100%;
+     transition: transform 0.25s ease;
+
+    
+}
+
+
+
+
+

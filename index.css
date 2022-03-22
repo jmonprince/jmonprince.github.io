@@ -1,4 +1,10 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 
@@ -10,15 +16,30 @@ img {
     width: 500px;
     align-content: center;
     vertical-align: middle;
-     margin-top: 75px;
+     margin-top: 130px;
+    position: sticky;
+    z-index: 10;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
     
-
-
-    
-     
-   
     
 }
+
+
+.overlay {
+    
+    position: absolute;
+    top: 0; 
+    left: 0;
+    
+    
+    
+    
+}
+
+
+
 
 
 h1 {
@@ -38,33 +59,13 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    
-    
-    
-}
-
-
-
-h2 {
+    z-index: 10;
+    position: relative;
     text-align: center;
-    list-style: none;
-    font-family: jfont2;
-    font-size: 20px;
-    display:block; 
-    display: block;
-    font-weight: 600;
-    color: white;
-    text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-    overflow: hidden;
-    text-decoration: underline;
-
-    
     
     
 }
+
 
 @font-face
 {
@@ -80,110 +81,85 @@ body {
     background-attachment:scroll;
     background-size: contain;
     background-color: black;
-    
+    overflow: hidden;
 }
 
 a:link {
-    color: gold; 
+    color: white; 
     background-color: transparent; 
     text-decoration: none;
 }
 
 a:visited {
-    color: gold;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: red;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
     text-decoration-color: white;
 }
 
 a:active {
-    color: black;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
-ol { 
-
-color: white;
-font-family: monospace;
-font-weight: 500;
-margin-bottom: auto;
-list-style-type: decimal-leading-zero;
-font-size: 17px;
-padding-left: 40px;
-    padding-right: 40px;
 
 
+
+
+
+video {
     
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    
+    
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 1440px) {
+img  {
+    
+    max-width: 20em;
+    min-height: 1em;
+    
+    }
   
     
-   
-}
+    
+    }
 
-li {
-    padding: 13px;
-    margin-left: 75px;
-    font-style: italic;
-    margin top: 25px;
-   
     
-}
+    
+    a {
+        color: white;
+        z-index: 10;
+        
+        
+        
+    }
 
-p {
-     color:gold;
-    font-family: monospace;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 17px;
     
     
-}
-
-
-h3 {
-    
-     color: skyblue; 
-    font-family: monospace;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 17px;
-    
-    
-    
-}
-
-
-h4 {
-    
-     color: white; 
-    font-family: monospace;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 15px;
-    
-    
-    
-}
-
-
-iframe {
-    
-       display: block;
-    margin: auto;
-    align-content: center;
-    vertical-align: middle;
-     margin-top: 75px; 
-    
-    
-    
-    
-}
+    .first {
+        
+        margin-top: -100px;
+        
+        
+        
+        
+    }
