@@ -763,5 +763,88 @@ img {
 
     
 }
+    
+    
+
+
+
+@media only screen and (max-width: 740px) {
+.video-container {
+    width:auto;
+    height:auto;
+    
+    
+    
+    
+    }
+
+.video-container iframe, .video-container object, .video-container embed 
+{     width:1920px;
+    height:1080px;
+    
+}
+ 
+    
+    
+    
+    
+}
+
+
+.responsive-iframe {
+    
+    position: absolute;
+    top: 0;
+    left 0;
+    bottom: 0;
+    right: 0; 
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+    
+    
+}
+
+.video-box{
+    width:400px;
+    position:relative;
+    
+}
+
+.video-thumbnail{
+    z-index:300;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    image-resolution: snap;
+    
+
+}
+
+.video-frame{
+    z-index:100;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    
+}
+
+.thumbnail-link .video-thumbnail{
+    display:block;
+    image-resolution:
+}
+
+.thumbnail-link:hover .video-thumbnail{
+    display:none;
+}
+
+
+
+
 
 
