@@ -238,7 +238,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 13px;
+    font-size: 10px;
     margin-top: 50px;
     padding-bottom: 20px;
     
@@ -482,27 +482,17 @@ dd {
     margin-left:auto;
     margin-right:auto;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     padding-bottom: 20px;
     margin-top: 20px;
     text-decoration: underline;
     font-weight: 900;
+    font-style: oblique;
     
    
 } 
 
-
-
-.twelvth dd {
-    
-    color: black;
-    
-    
-    
-    
-    
-}
 
 img {
     
@@ -634,7 +624,8 @@ img {
     
    max-width: 600px;
     min-width: 300px;
-    padding-left: 150px;
+    margin-left: 50%;
+    margin-right: 50%;
     
     
 }
@@ -644,6 +635,8 @@ img {
     max-width: 300px;
     min-width: 350px;
     padding-top: 50px;
+      margin-left: 50%;
+    margin-right: 50%;
 }
 
 
@@ -651,6 +644,8 @@ img {
 .fifteenth {
     min-width: 450px;
     padding-top: 50px;
+      margin-left: 50%;
+    margin-right: 50%;
     
     
     
@@ -662,6 +657,8 @@ img {
     max-width: 450px;
     min-width: 350px;
     padding-top: 50px;
+      margin-left: 50%;
+    margin-right: 50%;
     
     
     
@@ -673,6 +670,8 @@ img {
     max-width: 450px;
     min-width: 600px;
     padding-top: 50px;
+      margin-left: 50%;
+    margin-right: 50%;
     
 }
 
@@ -684,6 +683,8 @@ img {
     min-width: 450px;
     max-width: 600px;
     padding-top: 50px;
+      margin-left: 50%;
+    margin-right: 50%;
     
     
     
@@ -699,6 +700,8 @@ img {
     max-width: 495px;
     min-width: 350px;
     padding-top: 50px;
+      margin-left: 50%;
+    margin-right: 50%;
     
     
 }
@@ -709,6 +712,8 @@ img {
     max-width: 495px;
     min-width: 350px;
     padding-top: 50px;
+      margin-left: 50%;
+    margin-right: 50%;
     
     
 }
