@@ -642,7 +642,7 @@ img {
 
 /*scrapped cover */
 .fifteenth {
-    min-width: 450px;
+    max-width: 400px;
     padding-top: 50px;
       margin-left: 50%;
     margin-right: 50%;
