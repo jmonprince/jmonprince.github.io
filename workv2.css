@@ -642,7 +642,8 @@ img {
 
 /*scrapped cover */
 .fifteenth {
-    max-width: 400px;
+    max-width: 500px;
+    min-width: 500px;
     padding-top: 50px;
   margin-left: 100%;
 margin-right: 100%;
@@ -731,16 +732,6 @@ margin-right: 100%;
     }
 
 
-@media only screen and (min-width: 1330px) {
-.fifteenth  {
-    
-    max-width: 2.5em;
-    min-height: 1em;
-    
-   
-    
-    
-    }
 .fourteenth  {
     
     max-width: 5em;
