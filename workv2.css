@@ -579,7 +579,7 @@ img {
     
     max-width: 450px;
     min-width: 350px;
-    padding-top: 50px;
+   
     
     
    
@@ -591,10 +591,9 @@ img {
 
 .tenth {
     
-   min-width: 450px;
-    padding-top: 50px;
-    
-    
+    max-width: 450px;
+    min-width: 350px;
+   
    
     
     
@@ -604,13 +603,9 @@ img {
 
 .eleventh {
     
-    
-    max-width: 40px;
+    max-width: 450px;
     min-width: 350px;
    
- 
-    
-    
     
     
     
